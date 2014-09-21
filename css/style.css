@@ -1,0 +1,15 @@
+/*
+img {
+  display: block;
+  width: 7%;
+  height: auto;
+  margin: 0 auto;
+  position: relative;
+  top: 30px;
+}
+*/
+span {
+  color: red;
+  display: block;
+  margin-bottom: 10px; 
+}

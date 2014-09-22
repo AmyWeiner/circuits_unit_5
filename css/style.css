@@ -1,15 +1,59 @@
-/*
+span {
+  color: red;
+  display: block;
+  margin-bottom: 10px; 
+}
+
 img {
   display: block;
   width: 7%;
   height: auto;
   margin: 0 auto;
-  position: relative;
-  top: 30px;
 }
-*/
-span {
-  color: red;
-  display: block;
-  margin-bottom: 10px; 
+
+#wordmark {
+  color: #300D06;
+  font-family: "CoventryGarden";
+  font-size: 500%;
+  margin: 0;
+  position: relative;
+  text-align: center;
+}
+
+hr {
+  border: 1px double #000;
+  width: 120px;
+  margin: 0;
+
+}
+
+.coventry-garden {
+    font-family: "CoventryGarden";
+}
+.color {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
+
+#dark-brown {
+  background-color: #300D06;
+}
+
+#light-brown {
+  background-color: #CD7C1F;
+}
+
+#dark-green {
+  background-color: #1F342B;
+}
+
+#layout {
+  display: inline;
+  width: 10%;
+}
+
+@font-face{
+    font-family: "CoventryGarden";
+    src: url('../fonts/COVENTRY.TTF'),
 }
